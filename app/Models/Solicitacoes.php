@@ -29,6 +29,6 @@ class Solicitacoes extends Model
 
     public function prioridade()
     {
-        return $this->belongsTo(Prioridade::class, 'prioridade_id');
+        return $this->belongsTo(Prioridades::class, 'prioridade_id');
     }
 }
